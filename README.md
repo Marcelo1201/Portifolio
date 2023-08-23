@@ -1,4 +1,4 @@
-# Portifolio
+# Portifólio
 # Sobre o projeto
 
 Link para a demo https://marcelo-giacometti.vercel.app/

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://unpkg.com/scrollreveal"></script> <!-- biblioteca para fazer o efeito nos projetos -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <section class="menu-desktop">
+        <div class="box-desktop">
+            <ul class="itens-desktop">
+                <li class="lista-desktop"><a class="ancora-desktop" href="#landing-page">Sobre mim</a></li>
+                <li class="lista-desktop"><a class="ancora-desktop" href="#projeto-titulo">Projetos</a></li>
+                <li class="lista-desktop"><a class="ancora-desktop" href="#rodape">Contato</a></li>
+            </ul>
+        </div>
+
+        <span class="material-icons" id="botao-desktop" onclick="desktop()">menu</span>
+    </section>
+
+    <!-- <header class="cabecalho">
+        <nav class="lista">
+            <section class="menu-celular">
+                <div class="menu">
+                    <span id="menu-hamb" class="material-icons" onclick="menu()">
+                        menu
+                    </span>
+                </div>
+                <div class="menu-container">
+                    <div class="box">
+                        <ul>
+                            <li class="itens itens-mob"><a class="menu-itens" href="#sobre-mim">Sobre mim</a></li>
+                            <li class="itens itens-mob"><a class="menu-itens" href="#projeto-titulo">Projetos</a></li>
+                            <li class="itens itens-mob"><a class="menu-itens" href="#rodape">Contato</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </nav>
+    </header> -->
+
+    <main>
+        <section id="landing-page">
+            <div class="welcome">
+                <h1 class="descricao-titulo" id="sobre-mim">Marcelo Giacometti</h1>
+                <p class="descricao">Sou desenvolvedor Front-End, formado na escola técnica ETEC de Itanhaém. Estou cursando Tecnologia da Informação na Universidade Virtual do Estado de São Paulo (UNIVESP). Trabalho como estagiário na
+                    prefeitura de Itanhaém, há aproximadamente 1 ano. Utilizo as seguintes tecnologias
+                    para criação web:</p>
+            </div>
+        </section>
+
+        <section class="container-card">
+            <div class="imagem-fundo">
+                <div class="grupo-card">
+                    <div class="card" style="--cor-borda: #FF4E1D;">
+                        <div class="sub">
+                            <img class="card-img" src="img/html.png" alt="">
+                            <h3 class="card-titulo">HTML 5</h3>
+                        </div>
+                        <p class="card-paragrafo">HyperText Markup Language é uma linguagem de marcação utilizada na
+                            construção de páginas na Web.</p>
+                    </div>
+
+                    <div class="card" style="--cor-borda: #0074BE;">
+                        <div class="sub">
+                            <img class="card-img" src="img/css.png" alt="">
+                            <h3 class="card-titulo">CSS 3</h3>
+                        </div>
+                        <p class="card-paragrafo">Cascading Style Sheets é uma maneira de estilizar os códigos criado
+                            por linguagem como HTML.</p>
+                    </div>
+
+                    <div class="card" style="--cor-borda: #F7DF1E;">
+                        <div class="sub">
+                            <img class="card-img" src="img/js.png" alt="">
+                            <h3 class="card-titulo">JavaScript</h3>
+                        </div>
+                        <p class="card-paragrafo">É uma linguagem de programação de script em alto nível com tipagem
+                            dinâmica fraca e multiparadigma.</p>
+                    </div>
+
+                    <div class="card" style="--cor-borda: #61DAFB;">
+                        <div class="sub">
+                            <img class="card-img" src="img/react.png" alt="">
+                            <h3 class="card-titulo">ReactJS</h3>
+                        </div>
+                        <p class="card-paragrafo">É uma biblioteca front-end JavaScript de código aberto com foco em
+                            criar interfaces de usuário em páginas web.</p>
+                    </div>
+
+                    <div class="card" style="--cor-borda: #7c7c7c;">
+                        <div class="sub">
+                            <img class="card-img" src="img/github.png" alt="">
+                            <h3 class="card-titulo">GitHub</h3>
+                        </div>
+                        <p class="card-paragrafo">É uma plataforma de hospedagem de código-fonte e arquivos com controle
+                            de versão usando o Git.</p>
+                    </div>
+
+                    <div class="card" style="--cor-borda: #21759B;">
+                        <div class="sub">
+                            <img class="card-img" src="img/wordpress.png" alt="">
+                            <h3 class="card-titulo">WordPress</h3>
+                        </div>
+                        <p class="card-paragrafo">Um sistema livre e aberto de gestão de conteúdo para internet, baseado
+                            em PHP com banco de dados MySQL.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="projeto-container">
+
+            <h2 id="projeto-titulo">Projetos</h2>
+
+            <div class="projeto">
+                <h3 class="projeto-nome">Calculadora</h3>
+                <p class="projeto-paragrafo">Um projeto que efetua as 4 operações básicas, porém de forma completa e
+                    eficiente.</p>
+                <a class="projeto-botao" href="https://github.com/Marcelo1201/Calculadora" target="_blank">Ver</a>
+            </div>
+
+            <div class="projeto">
+                <h3 class="projeto-nome">Jogo da Velha</h3>
+                <p class="projeto-paragrafo">Desenvolvi um dos jogos mais conhecidos. Sendo possível jogar em até duas
+                    pessoas.</p>
+                <a class="projeto-botao" href="https://github.com/Marcelo1201/Jogo-Da-Velha" target="_blank">Ver</a>
+            </div>
+
+            <div class="projeto">
+                <h3 class="projeto-nome">Space</h3>
+                <p class="projeto-paragrafo">Criado com ReactJS, um site onde mostra algumas fotos tiradas da galáxia.
+                </p>
+                <a class="projeto-botao" href="https://github.com/Marcelo1201/Space" target="_blank">Ver</a>
+            </div>
+
+            <div class="projeto">
+                <h3 class="projeto-nome">Organograma</h3>
+                <p class="projeto-paragrafo">Um organograma que cria card automaticamente de acordo com o preenchimento
+                    do usuário.</p>
+                <a class="projeto-botao" href="https://github.com/Marcelo1201/Organo" target="_blank">Ver</a>
+            </div>
+
+            <div class="projeto">
+                <h3 class="projeto-nome">Timer</h3>
+                <p class="projeto-paragrafo">Criado com ReactJS, um site onde mostra algumas fotos tiradas da galáxia.
+                </p>
+                <a class="projeto-botao" href="https://github.com/Marcelo1201/Timer" target="_blank">Ver</a>
+            </div>
+
+            <a class="git" href="https://github.com/Marcelo1201?tab=repositories" target="_blank">Todos</a>
+        </section>
+    </main>
+
+    <footer id="rodape">
+        <a class="contato"
+            href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSDZqfqLsnWHTnMDNrJKjpvGfxzHmjCGKlHWqPXTRDPgpkwbjRPjgbxqmKzSwgGkFRBVXhQX" target="_blank">
+            <img class="contato-imagem" src="img/gmail.png" alt="Ícone do Gmail">
+            marcelo.giacomettigemeo1@gmail.com
+        </a>
+
+        <a class="contato" href="https://github.com/Marcelo1201" target="_blank">
+            <img class="contato-imagem" src="img/github.png" alt="Ícone do GitHub">
+            GitHub
+        </a>
+
+        <a class="contato" href="https://www.linkedin.com/in/marcelo-giacometti/" target="_blank">
+            <img class="contato-imagem" src="img/linkedin.png" alt="Ícone do Linkedin">
+            Linkedin
+        </a>
+
+        <p class="whats contato"> <img class="contato-imagem" src="img/whats.png" alt="Ícone do Whatsapp"> (13)99774-4608</p>
+
+        <p class="copy">&copy;Marcelo Giacometti - 2023</p>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
